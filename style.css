@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.card {
+    max-width: 600px;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+
+a:hover {
+    border-bottom-color: #333;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-left: 0.25rem;
+}

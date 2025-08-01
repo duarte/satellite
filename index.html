@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satellite Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <h1>Satellite Studio</h1>
+        <p>App design studio</p>
+        <p>
+            <a id="email-link" href="#">studio [at] satellite.studio</a>
+            &middot;
+            <a href="https://www.google.com/maps/place/Parkgatan+16,+112+30+Stockholm,+Sweden" target="_blank" rel="noopener noreferrer">
+                Parkgatan 16, 112 30, Stockholm, Sweden
+                <svg class="icon" width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(-31 -53)" fill="none" fill-rule="evenodd">
+                        <circle stroke="#16161D" opacity=".8" cx="39.5" cy="61.5" r="8"></circle>
+                        <path d="M36.431 58.164h6v6h-1v-4.321l-4.816 4.817-.707-.707 4.787-4.789h-4.264v-1z" fill="#16161D"></path>
+                    </g>
+                </svg>
+            </a>
+        </p>
+        <p>Duarte Design Studio AB &middot; 5593364952</p>
+    </div>
+
+    <script>
+        const emailLink = document.getElementById('email-link');
+        const email = 'studio@satellite.studio';
+        emailLink.setAttribute('href', 'mailto:' + email);
+        emailLink.textContent = email;
+    </script>
+</body>
+</html>
