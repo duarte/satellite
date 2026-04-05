@@ -38,6 +38,29 @@ a:hover {
     border-bottom-color: #333;
 }
 
+.project {
+    margin: 1.5rem 0;
+}
+
+.project a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+.project a:hover {
+    border-bottom: none;
+    opacity: 0.7;
+}
+
+.project-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 22%;
+}
+
 .icon {
     vertical-align: middle;
     margin-left: 0.25rem;
